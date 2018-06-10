@@ -1,0 +1,11 @@
+H:\frm.paint123\frm.paint123\bin\Debug\frm.paint123.exe.config
+H:\frm.paint123\frm.paint123\bin\Debug\frm.paint123.exe
+H:\frm.paint123\frm.paint123\bin\Debug\frm.paint123.pdb
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csprojAssemblyReference.cache
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.Form1.resources
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.Properties.Resources.resources
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csproj.GenerateResource.cache
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csproj.CoreCompileInputs.cache
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.exe
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.pdb
+H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.frmtextbox.resources
