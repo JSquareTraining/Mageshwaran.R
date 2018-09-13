@@ -108,7 +108,6 @@
             this.lblsi = new System.Windows.Forms.Label();
             this.lblmaro = new System.Windows.Forms.Label();
             this.lblre = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblmain
@@ -868,19 +867,11 @@
             this.lblre.TabIndex = 48;
             this.lblre.Click += new System.EventHandler(this.lblre_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(538, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 81;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1804, 432);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label73);
             this.Controls.Add(this.label71);
             this.Controls.Add(this.label70);
@@ -1048,7 +1039,6 @@
         private System.Windows.Forms.Label lblsi;
         private System.Windows.Forms.Label lblmaro;
         private System.Windows.Forms.Label lblre;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

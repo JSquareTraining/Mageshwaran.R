@@ -1,0 +1,15 @@
+H:\Register\Register\bin\Debug\Register.exe.config
+H:\Register\Register\bin\Debug\Register.exe
+H:\Register\Register\bin\Debug\Register.pdb
+H:\Register\Register\obj\Debug\Register.csprojAssemblyReference.cache
+H:\Register\Register\obj\Debug\MainWindow.g.cs
+H:\Register\Register\obj\Debug\App.g.cs
+H:\Register\Register\obj\Debug\Register_MarkupCompile.cache
+H:\Register\Register\obj\Debug\Register_MarkupCompile.lref
+H:\Register\Register\obj\Debug\MainWindow.baml
+H:\Register\Register\obj\Debug\Register.g.resources
+H:\Register\Register\obj\Debug\Register.Properties.Resources.resources
+H:\Register\Register\obj\Debug\Register.csproj.GenerateResource.cache
+H:\Register\Register\obj\Debug\Register.csproj.CoreCompileInputs.cache
+H:\Register\Register\obj\Debug\Register.exe
+H:\Register\Register\obj\Debug\Register.pdb

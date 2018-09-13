@@ -1,0 +1,120 @@
+﻿<Window x:Class="usernamebtnconnent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:usernamebtnconnent"
+        mc:Ignorable="d"
+        Title="LoginTemplate" Height="300" Width="450" >
+    <Window.Background>
+        <ImageBrush ImageSource="H:\usernamebtnconnent\usernamebtnconnent\Image\login-img.png" Opacity="0.2" Stretch="UniformToFill"></ImageBrush>
+    </Window.Background>
+    <Window.Resources>
+
+        <ControlTemplate x:Key="lbltemplate" TargetType="Label">
+
+
+            <Grid>
+                <Rectangle x:Name="lblrectangle">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0.2" EndPoint="0,01.4">
+
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <ContentPresenter Content="{ TemplateBinding Content }" HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="lblrectangle" Property="Fill">
+                        <Setter.Value>
+                            <LinearGradientBrush>
+                                <GradientStop Color="White"></GradientStop>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="TextTemplate" TargetType="TextBox">
+            <Grid>
+                <Rectangle x:Name="txtrectangle" >
+
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0.2" EndPoint="0,1.4"></LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <ContentPresenter Content="{TemplateBinding Text}" HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+            </Grid>
+
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"></Setter>
+                    <Setter Property="RenderTransform" >
+                        <Setter.Value>
+                            <ScaleTransform CenterX="0" CenterY="0" ScaleX="0.9" ScaleY="0.9"></ScaleTransform>
+
+                        </Setter.Value>
+                    </Setter>
+
+
+
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="txtrectangle" Property="Fill">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0.5" EndPoint="0,0.5">
+                                <GradientStop Color="Red"></GradientStop>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </ControlTemplate.Triggers>
+
+        </ControlTemplate>
+        <ControlTemplate x:Key="btnTemplate" TargetType="Button">
+            <Grid>
+                <Rectangle x:Name="btnrectangle">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0.2" EndPoint="0,1.4"></LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter TargetName="btnrectangle" Property="Fill">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0.2" EndPoint="0,1.4">
+                                <GradientStop Color="Green"></GradientStop>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+
+
+    </Window.Resources>
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="371*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtuser" Text="" Foreground="Aqua" Template="{StaticResource TextTemplate}" HorizontalAlignment="Left" Height="30"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="158" Margin="109.333,108,0,0" Grid.Column="1"/>
+        <TextBox x:Name="txtpassword"  Text="" Foreground="Aqua" Template="{StaticResource TextTemplate}" HorizontalAlignment="Left" Height="28"  TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Margin="109.333,59,0,0" Grid.Column="1"/>
+
+        <Button Content="LogIn" Foreground="Aqua" Template="{StaticResource btnTemplate}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="83" Margin="109.333,162,0,0" Height="29" Click="Button_Click" Grid.Column="1"/>
+        <Button Content="Clear" Foreground="Aqua" Template="{StaticResource btnTemplate}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="255.333,162,0,0" Height="29" Click="Button_Click_1" Grid.Column="1"/>
+        <Label Content="User Name" Foreground="Aqua" Template="{StaticResource lbltemplate}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,52,0,0" Width="130" Height="35" Grid.ColumnSpan="2"/>
+        <Label Content="Password" Foreground="Aqua" Template="{StaticResource lbltemplate}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,108,0,0" Width="130" Height="30" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

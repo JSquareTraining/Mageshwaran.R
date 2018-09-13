@@ -9,3 +9,14 @@ H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csproj.CoreCompileInputs.cac
 H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.exe
 H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.pdb
 H:\frm.paint123\frm.paint123\obj\Debug\frm.paint123.frmtextbox.resources
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\bin\Debug\frm.paint123.exe.config
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\bin\Debug\frm.paint123.exe
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\bin\Debug\frm.paint123.pdb
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csprojAssemblyReference.cache
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.Form1.resources
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.frmtextbox.resources
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.Properties.Resources.resources
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csproj.GenerateResource.cache
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.csproj.CoreCompileInputs.cache
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.exe
+C:\Users\god\Documents\GitHub\Mageshwaran.R\frm.paint123\frm.paint123\obj\Debug\frm.paint123.pdb

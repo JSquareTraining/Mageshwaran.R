@@ -1,0 +1,15 @@
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.csprojAssemblyReference.cache
+H:\bindingmarks\bindingmarks\obj\Debug\MainWindow.g.cs
+H:\bindingmarks\bindingmarks\obj\Debug\App.g.cs
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks_MarkupCompile.cache
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks_MarkupCompile.lref
+H:\bindingmarks\bindingmarks\bin\Debug\bindingmarks.exe.config
+H:\bindingmarks\bindingmarks\bin\Debug\bindingmarks.exe
+H:\bindingmarks\bindingmarks\bin\Debug\bindingmarks.pdb
+H:\bindingmarks\bindingmarks\obj\Debug\MainWindow.baml
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.g.resources
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.Properties.Resources.resources
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.csproj.GenerateResource.cache
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.csproj.CoreCompileInputs.cache
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.exe
+H:\bindingmarks\bindingmarks\obj\Debug\bindingmarks.pdb

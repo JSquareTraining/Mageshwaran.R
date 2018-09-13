@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Sys="clr-namespace:System;assembly=mscorlib"
+                    
+                    xmlns:local="clr-namespace:Login1.ResourceDictionary">
+    
+    <Sys:String x:Key="lbllang">Languages</Sys:String>
+    <Sys:String x:Key="lblstate">State</Sys:String>
+    <Sys:String x:Key="lblcountry">Country</Sys:String>
+    <Sys:String x:Key="lblusername">User Name</Sys:String>
+    <Sys:String x:Key="lblpassword">Password</Sys:String>
+    <Sys:String x:Key="btnlogin">LogIn</Sys:String>
+    <Sys:String x:Key="btnclr">Clear</Sys:String>
+
+</ResourceDictionary>

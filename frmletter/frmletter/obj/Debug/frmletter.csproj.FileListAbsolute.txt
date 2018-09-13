@@ -1,0 +1,10 @@
+H:\frmletter\frmletter\bin\Debug\frmletter.exe.config
+H:\frmletter\frmletter\bin\Debug\frmletter.exe
+H:\frmletter\frmletter\bin\Debug\frmletter.pdb
+H:\frmletter\frmletter\obj\Debug\frmletter.csprojAssemblyReference.cache
+H:\frmletter\frmletter\obj\Debug\frmletter.Form1.resources
+H:\frmletter\frmletter\obj\Debug\frmletter.Properties.Resources.resources
+H:\frmletter\frmletter\obj\Debug\frmletter.csproj.GenerateResource.cache
+H:\frmletter\frmletter\obj\Debug\frmletter.csproj.CoreCompileInputs.cache
+H:\frmletter\frmletter\obj\Debug\frmletter.exe
+H:\frmletter\frmletter\obj\Debug\frmletter.pdb

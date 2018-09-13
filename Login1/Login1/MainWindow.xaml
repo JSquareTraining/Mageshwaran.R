@@ -1,0 +1,327 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login1"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Login1.MainWindow"
+        mc:Ignorable="d"
+        Title="Log In" Height="400" Width="400">
+    <Window.Resources>
+        <System:String x:Key="lbllang">Languages</System:String>
+        <System:String x:Key="lblstate">State</System:String>
+        <System:String x:Key="lblcountry">Country</System:String>
+        <System:String x:Key="lblusername">User Name</System:String>
+        <System:String x:Key="lblpassword">Password</System:String>
+        <x:Array x:Key="lblstateA" Type="{x:Type System:String}">
+            <System:String>Andhra paradesh</System:String>
+            <System:String>Arunachal Paradesh</System:String>
+            <System:String>Assam</System:String>
+            <System:String>Bihar</System:String>
+            <System:String>Chhattisgarh</System:String>
+            <System:String>Dehli</System:String>
+            <System:String>Goa</System:String>
+            <System:String>Gujarat</System:String>
+            <System:String>Harayana</System:String>
+            <System:String>Himachal paradesh</System:String>
+            <System:String>Jammu kashmir</System:String>
+            <System:String>Jharkhand</System:String>
+            <System:String>Karanataka</System:String>
+            <System:String>Kerala</System:String>
+            <System:String>Madhya paradesh</System:String>
+            <System:String>Maharastra</System:String>
+            <System:String>Manipur</System:String>
+            <System:String>Maghalaya</System:String>
+            <System:String>Mizorm</System:String>
+            <System:String>Nagaland</System:String>
+            <System:String>Odisha</System:String>
+            <System:String>Puduichery</System:String>
+            <System:String>Punjab</System:String>
+            <System:String>Rajasthan</System:String>
+            <System:String>Sikkim</System:String>
+            <System:String>Tamil Nadu</System:String>
+            <System:String>Talangana</System:String>
+            <System:String>Uttarakhand</System:String>
+            <System:String>West Bengal</System:String>
+
+
+
+
+        </x:Array>
+        <x:Array x:Key="lblctryC" Type="{x:Type System:String}">
+            <System:String>Afghanistan</System:String>
+            <System:String>Albania</System:String>
+            <System:String>Algeria</System:String>
+            <System:String>American Samoa</System:String>
+            <System:String>Andorra</System:String>
+            <System:String>Angola</System:String>
+            <System:String>Anguilla</System:String>
+            <System:String>Antarctica</System:String>
+            <System:String>Antigua and Barbuda</System:String>
+            <System:String>Argentina</System:String>
+            <System:String>Armenia</System:String>
+            <System:String>Aruba</System:String>
+            <System:String>Aruba</System:String>
+            <System:String>Australia</System:String>
+            <System:String>Austria</System:String>
+            <System:String>Azerbaijan</System:String>
+            <System:String>Bahamas</System:String>
+            <System:String>Bahrain</System:String>
+            <System:String>Bangladesh</System:String>
+            <System:String>Barbados</System:String>
+            <System:String>Belarus</System:String>
+            <System:String>Belgium</System:String>
+            <System:String>Belize</System:String>
+            <System:String>Benin</System:String>
+            <System:String>Bermuda</System:String>
+            <System:String>Bhutan</System:String>
+            <System:String>Bolivia</System:String>
+            <System:String>Bosnia and Herzegovina</System:String>
+            <System:String>Botswana</System:String>
+            <System:String>Brazil</System:String>
+            <System:String>Brunei Darussalam</System:String>
+            <System:String>Bulgaria</System:String>
+            <System:String>Burkina Faso</System:String>
+            <System:String>Burundi</System:String>
+            <System:String>Cambodia</System:String>
+            <System:String>Cameroon</System:String>
+            <System:String>Canada</System:String>
+            <System:String>Cape Verde</System:String>
+            <System:String>Cayman Islands</System:String>
+            <System:String>Central African Republic</System:String>
+            <System:String>Chad</System:String>
+            <System:String>Chile</System:String>
+            <System:String>China</System:String>
+            <System:String>Christmas Island</System:String>
+            <System:String>Cocos</System:String>
+            <System:String>Colombia</System:String>
+            <System:String>Comoros</System:String>
+            <System:String>Congo</System:String>
+            <System:String>Cook Islands</System:String>
+            <System:String>Costa Rica</System:String>
+            <System:String>Croatia</System:String>
+            <System:String>Cuba</System:String>
+            <System:String>Cyprus</System:String>
+            <System:String>Denmark</System:String>
+            <System:String>Djibouti</System:String>
+            <System:String>Dominica</System:String>
+            <System:String>Dominican Republic</System:String>
+            <System:String>Ecuador</System:String>
+            <System:String>Egypt</System:String>
+            <System:String>El Salvador</System:String>
+            <System:String>Equatorial Guinea</System:String>
+            <System:String>Eritrea</System:String>
+            <System:String>Estonia</System:String>
+            <System:String>Ethiopia</System:String>
+            <System:String>Falkland Islands</System:String>
+            <System:String>Faroe Islands</System:String>
+            <System:String>Fiji</System:String>
+            <System:String>Finland</System:String>
+            <System:String>France</System:String>
+            <System:String>French Guiana</System:String>
+            <System:String>French Polynesia</System:String>
+            <System:String>French Southern Territories</System:String>
+            <System:String>Gabon</System:String>
+            <System:String>Gambia</System:String>
+            <System:String>Georgia</System:String>
+            <System:String>Germany</System:String>
+            <System:String>Ghana</System:String>
+            <System:String>Gibraltar</System:String>
+            <System:String>Great Britain</System:String>
+            <System:String>Greece</System:String>
+            <System:String>Greenland</System:String>
+            <System:String>Grenada</System:String>
+            <System:String>Guadeloupe</System:String>
+            <System:String>Guam</System:String>
+            <System:String>Guatemala</System:String>
+            <System:String>Guinea</System:String>
+            <System:String>Guinea-Bissau</System:String>
+            <System:String>Guyana</System:String>
+            <System:String>Haiti</System:String>
+            <System:String>Hungary</System:String>
+            <System:String>Iceland</System:String>
+            <System:String>India</System:String>
+            <System:String>Indonesia</System:String>
+            <System:String>Iraq</System:String>
+            <System:String>Ireland</System:String>
+            <System:String>Israel</System:String>
+            <System:String>Italy</System:String>
+            <System:String>Italy</System:String>
+            <System:String>Jamaica</System:String>
+            <System:String>Japan</System:String>
+            <System:String>Jordan</System:String>
+            <System:String>Kazakhstan</System:String>
+            <System:String>Kenya</System:String>
+            <System:String>Kiribati</System:String>
+            <System:String>Kosovo</System:String>
+            <System:String>Kuwait</System:String>
+            <System:String>Kyrgyzstan</System:String>
+            <System:String>Latvia</System:String>
+            <System:String>Lebanon</System:String>
+            <System:String>Lesotho</System:String>
+            <System:String>Liberia</System:String>
+            <System:String>Libya</System:String>
+            <System:String>Liechtenstein</System:String>
+            <System:String>Lithuania</System:String>
+            <System:String>Luxembourg</System:String>
+            <System:String>Macau</System:String>
+            <System:String>Madagascar</System:String>
+            <System:String>Malawi</System:String>
+            <System:String>Malaysia</System:String>
+            <System:String>Maldives</System:String>
+            <System:String>Mali</System:String>
+            <System:String>Malta</System:String>
+            <System:String>Marshall Islands</System:String>
+            <System:String>Martinique</System:String>
+            <System:String>Mauritania</System:String>
+            <System:String>Mauritius</System:String>
+            <System:String>Mayotte</System:String>
+            <System:String>Mexico</System:String>
+            <System:String>Monaco</System:String>
+            <System:String>Mongolia</System:String>
+            <System:String>Montenegro</System:String>
+            <System:String>Montserrat</System:String>
+            <System:String>Morocco</System:String>
+            <System:String>Mozambique</System:String>
+            <System:String>Namibia</System:String>
+            <System:String>Nauru</System:String>
+            <System:String>Nepal</System:String>
+            <System:String>Netherlands</System:String>
+            <System:String>New Caledonia</System:String>
+            <System:String>New Zealand</System:String>
+            <System:String>Nicaragua</System:String>
+            <System:String>Niger</System:String>
+            <System:String>Nigeria</System:String>
+            <System:String>Niue</System:String>
+            <System:String>Norway</System:String>
+            <System:String>Oman</System:String>
+            <System:String>Pakistan</System:String>
+            <System:String>Palau</System:String>
+            <System:String>Panama</System:String>
+            <System:String>Paraguay</System:String>
+            <System:String>Peru</System:String>
+            <System:String>Philippines</System:String>
+            <System:String>Poland</System:String>
+            <System:String>Puerto Rico</System:String>
+            <System:String>Qatar</System:String>
+            <System:String>Reunion Island</System:String>
+            <System:String>Romania</System:String>
+            <System:String>Russian Federation</System:String>
+            <System:String>Rwanda</System:String>
+            <System:String>Saint Lucia</System:String>
+            <System:String>Samoa</System:String>
+            <System:String>San Marino</System:String>
+            <System:String>Saudi Arabia</System:String>
+            <System:String>Senegal</System:String>
+            <System:String>Serbia</System:String>
+            <System:String>Seychelles</System:String>
+            <System:String>Sierra Leone</System:String>
+            <System:String>Singapore</System:String>
+            <System:String>Slovakia</System:String>
+            <System:String>Slovenia</System:String>
+            <System:String>Solomon Islands</System:String>
+            <System:String>Somalia</System:String>
+            <System:String>South Africa</System:String>
+            <System:String>South Sudan</System:String>
+            <System:String>Spain</System:String>
+            <System:String>Sri Lanka</System:String>
+            <System:String>Sudan</System:String>
+            <System:String>Suriname</System:String>
+            <System:String>Swaziland</System:String>
+            <System:String>Sweden</System:String>
+            <System:String>Switzerland</System:String>
+            <System:String>Syria</System:String>
+            <System:String>Taiwan</System:String>
+            <System:String>Tajikistan</System:String>
+            <System:String>Thailand</System:String>
+            <System:String>Tibet</System:String>
+            <System:String>Togo</System:String>
+            <System:String>Tokelau</System:String>
+            <System:String>Tonga</System:String>
+            <System:String>Tunisia</System:String>
+            <System:String>Turkey</System:String>
+            <System:String>Turkmenistan</System:String>
+            <System:String>Turks</System:String>
+            <System:String>Tuvalu</System:String>
+            <System:String>Uganda</System:String>
+            <System:String>Ukraine</System:String>
+            <System:String>United Arab Emirates</System:String>
+            <System:String>United Kingdom</System:String>
+            <System:String>United States</System:String>
+            <System:String>Uruguay</System:String>
+            <System:String>Uzbekistan</System:String>
+            <System:String>Vanuatu</System:String>
+            <System:String>Vietnam</System:String>
+            <System:String>Venezuela</System:String>
+            <System:String>Vietnam</System:String>
+            <System:String>Virgin Islands</System:String>
+            <System:String>Wallis</System:String>
+            <System:String>Western Sahara</System:String>
+            <System:String>Yemen</System:String>
+            <System:String>Zambia</System:String>
+            <System:String>Zimbabwe</System:String>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </x:Array>
+
+        <x:Array x:Key="lbllangA" Type="{x:Type System:String}" >
+            <System:String >Tamil</System:String>
+            <System:String >English</System:String>
+            <System:String >Hindi</System:String>
+            <System:String >Japanese</System:String>
+            <System:String >Malayalam</System:String>
+            <System:String >Telugu</System:String>
+            <System:String >kanatam</System:String>
+
+        </x:Array>
+        <System:String x:Key="btnlogin">Log In</System:String>
+        <System:String x:Key="btnclr">Clear</System:String>
+
+
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="H:\Login1\Login1\image\gdpr-data-content-2018-600x315.jpg" Opacity="0.4" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid>
+
+        <Grid x:Name="grdpnl">
+            <Label Background="Ivory" x:Name="languages" Width="145" VerticalAlignment="Top" Margin="10,32,0,0" HorizontalAlignment="Left" Content="{DynamicResource lbllang}"/>
+            <Label Background="Ivory" x:Name="State" Width="145" VerticalAlignment="Top" Margin="10,80,0,0" HorizontalAlignment="Left" Content="{DynamicResource lblstate}"/>
+            <Label Background="Ivory" x:Name="country" Width="142" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Margin="8,142,0,0" HorizontalAlignment="Left" Content="{StaticResource lblcountry}" Height="26">
+               
+            </Label>
+            <Label Background="Ivory" x:Name="Username" Width="145" VerticalAlignment="Top" Margin="10,198,0,0" HorizontalAlignment="Left" Content="{DynamicResource lblusername}"/>
+            <Label Background="Ivory" x:Name="password" Width="145" VerticalAlignment="Top" Margin="10,267,0,0" HorizontalAlignment="Left" Content="{DynamicResource lblpassword}"/>
+            <ComboBox x:Name="combostate" Width="170" VerticalAlignment="Top" Margin="190,80,0,0" ItemsSource="{StaticResource lblstateA}" HorizontalAlignment="Left" Height="26"/>
+            <ComboBox x:Name="combocutry" Width="170" VerticalAlignment="Top" Margin="190,143,0,0" ItemsSource="{StaticResource lblctryC}" HorizontalAlignment="Left" RenderTransformOrigin="0.15,0.147" Height="29"/>
+            <ComboBox x:Name="combolang" Width="170" VerticalAlignment="Top"  Margin="190,32,0,0" ItemsSource="{StaticResource lbllangA}" HorizontalAlignment="Left" Height="26" />
+            <TextBox x:Name="txtuser" Width="170" VerticalAlignment="Top" Text="" TextWrapping="Wrap" Margin="190,198,0,0" Height="26" HorizontalAlignment="Left"/>
+            <TextBox x:Name="txtpass" Width="170" VerticalAlignment="Top" Text="" TextWrapping="Wrap" Margin="190,267,0,0" Height="26" HorizontalAlignment="Left"/>
+            <Button x:Name="btnlogIn" Width="115" VerticalAlignment="Top" Margin="40,312,0,0" Height="29" HorizontalAlignment="Left" Content="{DynamicResource btnlogin}" Click="btnsub_Click" />
+            <Button x:Name="btnclr" Width="101" VerticalAlignment="Top" Margin="190,312,0,0" Height="29" HorizontalAlignment="Left" Content="{DynamicResource btnclr}" Click="btnclr_Click" />
+        </Grid>
+
+    </Grid>
+</Window>

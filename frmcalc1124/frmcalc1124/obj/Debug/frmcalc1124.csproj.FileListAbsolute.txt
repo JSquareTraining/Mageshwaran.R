@@ -1,0 +1,10 @@
+H:\frmcalc1124\frmcalc1124\bin\Debug\frmcalc1124.exe.config
+H:\frmcalc1124\frmcalc1124\bin\Debug\frmcalc1124.exe
+H:\frmcalc1124\frmcalc1124\bin\Debug\frmcalc1124.pdb
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.csprojAssemblyReference.cache
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.Form1.resources
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.Properties.Resources.resources
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.csproj.GenerateResource.cache
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.csproj.CoreCompileInputs.cache
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.exe
+H:\frmcalc1124\frmcalc1124\obj\Debug\frmcalc1124.pdb

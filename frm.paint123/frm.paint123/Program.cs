@@ -16,7 +16,7 @@ namespace frm.paint123
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmtextbox());
+            Application.Run(new Form1());
         }
     }
 }

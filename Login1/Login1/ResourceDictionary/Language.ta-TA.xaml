@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:Sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:Login1.ResourceDictionary">
+
+    <Sys:String x:Key="lbllang">மொழி</Sys:String>
+    <Sys:String x:Key="lblstate">மாநிலம்</Sys:String>
+    <Sys:String x:Key="lblcountry">நாடு</Sys:String>
+    <Sys:String x:Key="lblusername">பயனர்பெயர்</Sys:String>
+    <Sys:String x:Key="lblpassword">கடவுச்சொல்</Sys:String>
+    <Sys:String x:Key="btnlogin">சமர்ப்பிக்க</Sys:String>
+    <Sys:String x:Key="btnclr">நீக்கு</Sys:String>
+
+</ResourceDictionary>

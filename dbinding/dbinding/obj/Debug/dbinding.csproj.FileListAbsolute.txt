@@ -1,0 +1,15 @@
+H:\dbinding\dbinding\obj\Debug\dbinding.csprojAssemblyReference.cache
+H:\dbinding\dbinding\obj\Debug\MainWindow.g.cs
+H:\dbinding\dbinding\obj\Debug\App.g.cs
+H:\dbinding\dbinding\obj\Debug\dbinding_MarkupCompile.cache
+H:\dbinding\dbinding\obj\Debug\dbinding_MarkupCompile.lref
+H:\dbinding\dbinding\bin\Debug\dbinding.exe.config
+H:\dbinding\dbinding\bin\Debug\dbinding.exe
+H:\dbinding\dbinding\bin\Debug\dbinding.pdb
+H:\dbinding\dbinding\obj\Debug\MainWindow.baml
+H:\dbinding\dbinding\obj\Debug\dbinding.g.resources
+H:\dbinding\dbinding\obj\Debug\dbinding.Properties.Resources.resources
+H:\dbinding\dbinding\obj\Debug\dbinding.csproj.GenerateResource.cache
+H:\dbinding\dbinding\obj\Debug\dbinding.csproj.CoreCompileInputs.cache
+H:\dbinding\dbinding\obj\Debug\dbinding.exe
+H:\dbinding\dbinding\obj\Debug\dbinding.pdb

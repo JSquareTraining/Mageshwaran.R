@@ -1,0 +1,10 @@
+H:\frmuser112\frmuser112\bin\Debug\frmuser112.exe.config
+H:\frmuser112\frmuser112\bin\Debug\frmuser112.exe
+H:\frmuser112\frmuser112\bin\Debug\frmuser112.pdb
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.csprojAssemblyReference.cache
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.login.resources
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.Properties.Resources.resources
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.csproj.GenerateResource.cache
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.csproj.CoreCompileInputs.cache
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.exe
+H:\frmuser112\frmuser112\obj\Debug\frmuser112.pdb

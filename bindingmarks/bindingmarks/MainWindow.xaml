@@ -1,0 +1,29 @@
+﻿<Window x:Class="bindingmarks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bindingmarks"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Window.Background>
+        <ImageBrush ImageSource="H:\bindingmarks\bindingmarks\Image\question_mark-t2.jpg" Stretch="Fill" Opacity="0.6"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Foreground="Aqua" Content="Physics" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Margin="10,27,0,0"/>
+        <Label Foreground="Aqua" Content="Chemistry" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Margin="10,79,0,0"/>
+        <Label Foreground="Aqua" Content="maths" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Margin="10,142,0,0"/>
+        <Label Foreground="Aqua" Content="science" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Margin="10,203,0,0"/>
+        <Label Foreground="Aqua" Content="language" HorizontalAlignment="Left" VerticalAlignment="Top" Width="162" Margin="10,274,0,0"/>
+        <TextBox x:Name="txtphy"  HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" Text="{Binding Mark1 ,Mode=TwoWay}" VerticalAlignment="Top" Width="191" Margin="212,27,0,0"/>
+        <TextBox x:Name="txtchem" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" Text="{Binding Mark2,Mode=TwoWay}" VerticalAlignment="Top" Width="191" Margin="212,79,0,0"/>
+        <TextBox x:Name="txtmaths" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" Text="{Binding Mark3,Mode=TwoWay}" VerticalAlignment="Top" Width="191" Margin="212,127,0,0"/>
+        <TextBox x:Name="txtsci" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" Text="{Binding Mark4,Mode=TwoWay}" VerticalAlignment="Top" Width="191" Margin="212,202,0,0"/>
+        <TextBox x:Name="txtlang" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" Text="{Binding Mark5,Mode=TwoWay}" VerticalAlignment="Top" Width="191" Margin="212,259,0,0" />
+        <Label Foreground="Aqua" Content="totalmarks" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,329,0,0" Width="162"/>
+        <TextBox x:Name="txttotal" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="191" Margin="212,329,0,0" />
+        <Button Foreground="Green" x:Name="btnadd" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="212,376,0,0" Click="btnadd_Click"/>
+        <Button Foreground="Green" x:Name="btnsum" Content="sum" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="308,376,0,0" RenderTransformOrigin="0.884,0.107" Click="btnsum_Click"/>
+
+    </Grid>
+</Window>

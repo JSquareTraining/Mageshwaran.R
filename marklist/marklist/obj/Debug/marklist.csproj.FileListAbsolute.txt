@@ -1,0 +1,15 @@
+H:\marklist\marklist\bin\Debug\marklist.exe.config
+H:\marklist\marklist\bin\Debug\marklist.exe
+H:\marklist\marklist\bin\Debug\marklist.pdb
+H:\marklist\marklist\obj\Debug\marklist.csprojAssemblyReference.cache
+H:\marklist\marklist\obj\Debug\MainWindow.g.cs
+H:\marklist\marklist\obj\Debug\App.g.cs
+H:\marklist\marklist\obj\Debug\marklist_MarkupCompile.cache
+H:\marklist\marklist\obj\Debug\marklist_MarkupCompile.lref
+H:\marklist\marklist\obj\Debug\MainWindow.baml
+H:\marklist\marklist\obj\Debug\marklist.g.resources
+H:\marklist\marklist\obj\Debug\marklist.Properties.Resources.resources
+H:\marklist\marklist\obj\Debug\marklist.csproj.GenerateResource.cache
+H:\marklist\marklist\obj\Debug\marklist.csproj.CoreCompileInputs.cache
+H:\marklist\marklist\obj\Debug\marklist.exe
+H:\marklist\marklist\obj\Debug\marklist.pdb

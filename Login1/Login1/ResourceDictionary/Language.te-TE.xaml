@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:Sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:Login1.ResourceDictionary">
+
+    <Sys:String x:Key="lbllang">భాషలు</Sys:String>
+    <Sys:String x:Key="lblstate">రాష్ట్ర</Sys:String>
+    <Sys:String x:Key="lblcountry">దేశంలో</Sys:String>
+    <Sys:String x:Key="lblusername">యూజర్పేరు</Sys:String>
+    <Sys:String x:Key="lblpassword">పాస్వర్డ్</Sys:String>
+    <Sys:String x:Key="btnlogin">సమర్పించిన</Sys:String>
+    <Sys:String x:Key="btnclr">స్పష్టమైన</Sys:String>
+
+</ResourceDictionary>

@@ -1,0 +1,15 @@
+H:\usernamebtnconnent\usernamebtnconnent\bin\Debug\usernamebtnconnent.exe.config
+H:\usernamebtnconnent\usernamebtnconnent\bin\Debug\usernamebtnconnent.exe
+H:\usernamebtnconnent\usernamebtnconnent\bin\Debug\usernamebtnconnent.pdb
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.csprojAssemblyReference.cache
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\MainWindow.g.cs
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\App.g.cs
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent_MarkupCompile.cache
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent_MarkupCompile.lref
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\MainWindow.baml
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.g.resources
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.Properties.Resources.resources
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.csproj.GenerateResource.cache
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.csproj.CoreCompileInputs.cache
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.exe
+H:\usernamebtnconnent\usernamebtnconnent\obj\Debug\usernamebtnconnent.pdb
